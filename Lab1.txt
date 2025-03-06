@@ -1,0 +1,50 @@
+Brian Barry
+C00274624
+
+1.
+Virtualization is enabled
+
+2.
+Fundamentally, cloud allows for infinitely better access to resources, as well as resource allocation all in a cost effective way
+
+Pro:
+Cost effective: allows for remote access to expensive equipment without paying full price
+Scalability: allow resources to be utilized in tan dome even while having no geographical relation
+Accessibility: remote access allows for quick responses to incidents. even when admin/staff are not available on site
+
+Con:
+Security Concerns: data stored on the cloud is inherently vulnerable to attack. This is inherited by nature of increasing its availability
+Internet Dependency: Requiring a stable internet connection is a point of failure. the internet is often subject to instability in many scenarios for a multitude of reasons
+Limited Control: This centralization of resources and assets increases the users dependency on the cloud provider. which also infers less control over your resource, if supplied by a third party 
+
+3.
+A hypervisor is responsible for managing and running virtual machines (VMs). It enables multiple operating systems to run on a single physical machine by allocating resources such as CPU, memory, and storage
+
+4.
+A VM is a software-based emulation of a physical computer that runs an operating system and applications as if it were a real machine. It operates independently and is managed by a hypervisor
+
+5.
+Hardware Efficiency: multiple VMs can run on a single physical server
+Security & Isolation: VMs are isolated from each other, preventing system wide crashes
+Portability: VMs can be easily moved or copied across different hardware
+Cost Savings:  reduces the need for purchasing multiple physical machines
+Backup & Recovery: VMs can be easily cloned and restored if needed
+
+6.
+Software Development: developers test applications in different OS environments.
+Server Virtualization: businesses run multiple servers on fewer physical machines.
+Cloud Computing Services: cloud providers host VMs for customers.
+Penetration Testing: security professionals test systems in isolated environments.
+Legacy Software Support: older applications can run on VMs without needing old hardware.
+
+7.
+B
+
+8.
+C
+
+9.
+C
+
+10.
+cloning a VM creates an exact copy, which can be used for testing, backup, or deploying multiple identical environments without setting them up manually
