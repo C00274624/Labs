@@ -1,0 +1,26 @@
+{
+  "name": "hello-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-05-17",
+
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./public",
+    "run_worker_first": true
+  },
+
+  "kv_namespaces": [
+    {
+      "binding":   "COUNTER",
+      "id":        "8244c0dbafe34c5686b6dadaf25d0650",
+      "preview_id":"b1850d48bf7f43d394d727f2b02fe748"
+    }
+  ],
+
+  "ai": { "binding": "AI" },
+
+  "triggers": {
+    "crons": [ "0 0 * * *" ]          // runs every day at 00:00 UTC
+  }
+}
+
