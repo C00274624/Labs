@@ -1,30 +1,3 @@
-/**
- * Welcome to Cloudflare Workers! This is your first worker.
- *
- * - Run `npm run dev` in your terminal to start a development server
- * - Open a browser tab at http://localhost:8787/ to see your worker in action
- * - Run `npm run deploy` to publish your worker
- *
- * Bind resources to your worker in `wrangler.jsonc`. After adding bindings, a type definition for the
- * `Env` object can be regenerated with `npm run cf-typegen`.
- *
- * Learn more at https://developers.cloudflare.com/workers/
- */
-
-/**
- * Type bindings for the resources we configured in wrangler.jsonc
- *//**
- * Resources configured in wrangler.jsonc
- */
-/**
- * Types for resources defined in wrangler.jsonc
- */
-// src/index.ts
-// ------------------------------------------------------------
-// Type bindings for resources listed in wrangler.jsonc
-// ------------------------------------------------------------
-// src/index.ts
-// src/index.ts
 interface Env {
   COUNTER: KVNamespace;
   AI: Ai;
